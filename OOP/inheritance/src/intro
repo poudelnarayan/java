@@ -1,0 +1,203 @@
+Reference vs Object vs Instance vs Class
+
+. Let's use the analogy of building a house to understand classes.
+
+    A class is basically a blueprint for house, using the blueprint (plans) we can build as many house as we like
+    based on those plans.
+
+    Each house you build (in other word instantiate using the new operator) is an object also known as an instance.
+
+    Each house you build has an address (a physical location). In other word if you want to tell someone
+    where you live, you give them your address (perhaps written on a piece of paper) .
+    This is also known as reference.
+
+    You can copy that reference as many times as you like but there is still just one house. In other words
+    we are copying the paper that has address on it not the house itself.
+
+    We can pass references as parameters to constructors and methods.
+
+
+this vs super
+
+    The keyword super is used to access/call the parent class members( variables and methods).
+
+    The keyword this is used to call the current class members (variables and methods) . This is required
+    when we have a parameter with the same name as an instance variable (field).
+
+    NOTE: we can use both of them anywhere in a class except static areas( the static block or a static method).
+    Any attempt to do so will lead to compile-time errors.
+
+    The keyword is commonly used with constructors and setters , and optionally in getters .
+
+    The keyword super is commonly used with method overriding , when we call a method with the same name
+    from the parent class .
+
+
+this() vs super() call
+
+    In java we have the this() call ans super() call. Notice the braces , it is known as a call since it
+    looks like a regular method call.
+
+    Use this() to call a constructor from another overloaded constructor in the same class.
+
+    The call to this() can only be used in a constructor, and it must be the first statement in a constructor.
+    It's used with constructor chaining, in other words when one constructor calls another constructor, ans
+    helps to reduce duplicated code.
+
+    The only way to call parent constructor is by calling super(). This calls the parent constructor.
+
+    The java compiler puts a default call to super() if we don't add it , and it always the no-args super
+    which is inserted by compiler (constructor without arguments)
+
+    The call to super() must be the first statements in each constructor.
+
+    Even abstract classes have constructors , although you can never instantiate an abstract class using the
+    new keyword.
+
+    An abstract class is still a super class, so its constructors run when someone makes an instance of a concrete
+    subclass.
+
+    NOTE: A  constructor can have a call to super() or this() but neve both.
+
+
+Covariant return type:
+
+    public class Burger{
+
+        public Burger createBurger() {
+            return new Burger;
+        }
+
+    }
+
+    public class HealthyBurger extends Burger {
+
+        // covariant return type
+        @override
+        public HealthyBurger createBurger() {   // this can be overridden as HealthyBurger is a burger. (Is-A relationship)
+            return new HealthyBurger() ;
+        }
+
+    }
+
+
+
+Static methods vs Instance methods
+
+    Static methods are declared using a static modifier.
+    Static methods can't access instance methods and instance variable directly.
+    They are usually used for operations that don't require any data from an instance of the class (from 'this').
+    If you remember, the this keyword is the current  instance of a class.
+    in static methods we can't use the this keyword.
+    Whenever you see a method that does not use instance variables that should be declared as a static method.
+
+    For example main is a static method and it is called by the JVM(java virtual machine) when it starts an application.
+
+
+
+    Instance methods belong to an instance of a class.
+    To use an instance method we have to instantiate the class first usually by using the new keyword.
+    Instance methods can access instance methods and instance variable directly.
+    Instance methods can also access static methods and static variable directly.
+
+
+Which method to use? Static or Instance ?
+
+                              Should a method be static?
+                                       |
+                    ----------------------------------------------
+             Does it use any fields(instance variables) or instance methods?
+            ---------------------------------------------------------------
+            |                                                              |
+           YES                                                             NO
+            |                                                              |
+ It should probably be an instance method                     It should probably be a static method
+
+
+
+Static Variables
+
+        Declared by using the keyword static.
+        Static variables are also known as static member variables.
+        Every instance of that class shares the same static variables.
+        If changes are made to that variable, all other instances will see the effect of the change.
+
+        Static variable are not used very often but can sometimes be very useful.
+
+        For example when reading user input using Scanner we will declare scanner as a static variable.
+        That way  static methods can access it directly.
+
+        example:
+
+
+            class Dog{
+                private static String name;
+
+                public Dog(String name) {
+                    Dog.name = name;
+                }
+
+                 public void printName() {
+                    System.out.println("name = " + name);
+                 }
+            }
+
+            public static class Main() {
+
+                public static void main(String[] args) {
+
+                    Dog rex = new Dog("rex");
+                    Dog fluffy = new Dog("fluffy");
+
+                    rex.printName();  // prints fluffy
+                    fluffy.printName(); // prints fluffy
+
+                    // the same name is printed because static variables shares common variable to all instances.
+
+                }
+
+
+            }
+
+
+
+
+Instance Variables:
+
+       They don't use the static keyword.
+       Instance variables are also known as field or member variables.
+       Instance variables belongs to instance of the class.
+       Every instance has it's own copy of an instance variable.
+       Every instance have a different value(state);
+       Instance Variable represent the state of an instance.
+
+       example:
+
+                   class Dog{
+                       private String name;
+
+                       public Dog(String name) {
+                           Dog.name = name;
+                       }
+
+                        public void printName() {
+                           System.out.println("name = " + name);
+                        }
+                   }
+
+                   public static class Main() {
+
+                       public static void main(String[] args) {
+
+                           Dog rex = new Dog("rex");
+                           Dog fluffy = new Dog("fluffy");
+
+                           rex.printName();  // prints rex
+                           fluffy.printName(); // prints fluffy
+                       }
+
+                   }
+
+
+
+
