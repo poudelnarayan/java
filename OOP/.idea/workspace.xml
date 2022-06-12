@@ -2,20 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3f4b9699-6f0f-401a-958e-882a5d1f4ffd" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/classesAndObjects/.idea/OOP.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/classesAndObjects/OOP.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/classesAndObjects/classesAndObjects.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inheritance/inheritance.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inheritance/src/Dog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inheritance/src/Fish.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inheritance/src/intro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Composition-2/Composition-2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Composition-2/src/Case.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Composition-2/src/Dimensions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Composition-2/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Composition-2/src/Monitor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Composition-2/src/MotherBoard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Composition-2/src/PC.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Composition-2/src/Resolution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Encapsulation/Encapsulation.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Encapsulation/src/EnhancedPlayer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Encapsulation/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Encapsulation/src/PoorPlayer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Encapsulation/src/Printer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OOP.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Account.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Car.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/VipCustomer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,20 +37,33 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2APtT5qdF6XE3BSMnoftl7LxWGH" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "jdk.selected.JAVA_MODULE": "11",
+    "last_opened_file_path": "E:/Java/OOP/Composition-2",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "editor.preferences.folding"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Java\OOP\Composition-2" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Main (1)">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="App" />
       <module name="inheritance" />
@@ -57,8 +71,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="Encapsulation" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="Composition-2" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (1)" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.App" />
       </list>
     </recent_temporary>
@@ -84,5 +114,8 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>
