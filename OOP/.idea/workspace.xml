@@ -2,15 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3f4b9699-6f0f-401a-958e-882a5d1f4ffd" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Composition/Composition.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Composition/src/Case.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Composition/src/Dimensions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Composition/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Composition/src/Monitor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Composition/src/MotherBoard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Composition/src/PC.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Composition/src/Resolution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Composition-2/Composition-2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Composition-2/src/Case.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Composition-2/src/Dimensions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Composition-2/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Composition-2/src/Monitor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Composition-2/src/MotherBoard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Composition-2/src/PC.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Composition-2/src/Resolution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Encapsulation/Encapsulation.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Encapsulation/src/EnhancedPlayer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Encapsulation/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Encapsulation/src/PoorPlayer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Encapsulation/src/Printer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -47,13 +51,19 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "jdk.selected.JAVA_MODULE": "11",
+    "last_opened_file_path": "E:/Java/OOP/Composition-2",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "editor.preferences.folding"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Java\OOP\Composition-2" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Main (1)">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="App" />
       <module name="inheritance" />
@@ -61,8 +71,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="Encapsulation" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="Composition-2" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (1)" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.App" />
       </list>
     </recent_temporary>
