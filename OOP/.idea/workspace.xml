@@ -2,19 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3f4b9699-6f0f-401a-958e-882a5d1f4ffd" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Composition-2/Composition-2.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Composition-2/src/Case.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Composition-2/src/Dimensions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Composition-2/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Composition-2/src/Monitor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Composition-2/src/MotherBoard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Composition-2/src/PC.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Composition-2/src/Resolution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Encapsulation/Encapsulation.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Encapsulation/src/EnhancedPlayer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Encapsulation/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Encapsulation/src/PoorPlayer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Encapsulation/src/Printer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Polymorphism/Polymorphism.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Polymorphism/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -44,26 +33,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "jdk.selected.JAVA_MODULE": "11",
-    "last_opened_file_path": "E:/Java/OOP/Composition-2",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "editor.preferences.folding"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;11&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/Java/OOP/Composition-2&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.folding&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\Java\OOP\Composition-2" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main (1)">
+  <component name="RunManager" selected="Application.Main (2)">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="App" />
       <module name="inheritance" />
@@ -78,6 +67,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="Polymorphism" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="Composition-2" />
@@ -87,6 +83,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (2)" />
         <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.App" />
